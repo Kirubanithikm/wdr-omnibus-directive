@@ -1,0 +1,23 @@
+{
+  "name": "kirubanithi/wp-plugin-boilerplate",
+  "description": "WordPress Plugin Boilerplate Generator",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Kirubanithi G",
+      "email": "kirubanithi@flycart.org"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "WDR_OD\\": "",
+      "WDR_OD\\App\\": "app/"
+    }
+  },
+  "require": {
+    "yahnis-elsts/plugin-update-checker": "^v5.0"
+  }
+}
